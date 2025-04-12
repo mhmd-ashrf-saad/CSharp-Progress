@@ -20,3 +20,11 @@ for(int i=size;i>=1;i--)
 {
     Console.WriteLine(numbers[i]);
 }
+
+// calculate average =  sum / size
+float sum = 0;
+foreach(int num in numbers)
+{
+    sum += num;
+}
+Console.WriteLine($"\nAverage = {sum / size}") ;
